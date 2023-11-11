@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+canvasB{
+	padding: 0;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.info {
+	display: inline-block;
+	background: rgb(35, 35, 35,0.5);
+	;
+	width: 450px;
+	height: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	margin-left: 50px;
+	z-index: 5;
+}
+
+.content{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15pt;
+	margin: 10px;
+	padding-left: 10px;
+	color: rgb(197, 197, 197);
+}
+
+.sources{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style: italic;
+	margin: 10px;
+	padding-left: 10px;
+	color: rgb(197, 197, 197);
+}
